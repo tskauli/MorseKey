@@ -15,3 +15,6 @@ is the most mature design. The key design is parametric so that
 dimensions can be varied to suit different tastes. It is also easy
 to adjust the code to accommodate printer tolerances, or different
 screw dimensions.
+
+The design is coded in OpenScad. All dimensions are controlled by
+parameters that can be easily changed in the code.

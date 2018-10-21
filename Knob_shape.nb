@@ -10,16 +10,29 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     32931,        857]
-NotebookOptionsPosition[     31765,        821]
-NotebookOutlinePosition[     32110,        836]
-CellTagsIndexPosition[     32067,        833]
+NotebookDataLength[     33684,        877]
+NotebookOptionsPosition[     32287,        835]
+NotebookOutlinePosition[     32632,        850]
+CellTagsIndexPosition[     32589,        847]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
+Cell["Morse key knob shape", "Title",
+ CellChangeTimes->{{3.7491049362052*^9, 
+  3.7491049552072*^9}},ExpressionUUID->"e9dac599-7f1c-4e6a-b84a-796622a8b2b2"],
+
+Cell["\<\
+This Mathematica code is used to construct the shape of the morse key knob, \
+incorporated in the OpenSCAD source as a table.\
+\>", "Text",
+ CellChangeTimes->{{3.7491049587272*^9, 
+  3.7491050165242*^9}},ExpressionUUID->"2219ed39-ca31-4deb-a244-0be5ba6bd9ed"],
+
+Cell[CellGroupData[{
+
 Cell["Dimpled disk knob", "Section",
  CellChangeTimes->{{3.743220167909626*^9, 
   3.7432201765997567`*^9}},ExpressionUUID->"d1b9788a-617e-48b7-b0e7-\
@@ -421,10 +434,10 @@ Cell[BoxData["\<\"[[14.2678,4.64142], [14.7112,5.24278], [14.9572,5.94834], \
 
 Cell[CellGroupData[{
 
-Cell["Grip knob", "Section",
- CellChangeTimes->{{3.743220167909626*^9, 
-  3.7432201868127356`*^9}},ExpressionUUID->"5460c3cb-13a5-427a-b6a0-\
-ca1fda6a568e"],
+Cell["Grip knob (unfinished)", "Section",
+ CellChangeTimes->{{3.743220167909626*^9, 3.7432201868127356`*^9}, {
+  3.7491049486742*^9, 
+  3.7491049508452*^9}},ExpressionUUID->"5460c3cb-13a5-427a-b6a0-ca1fda6a568e"],
 
 Cell[CellGroupData[{
 
@@ -703,7 +716,7 @@ Cell[BoxData[
            RowBox[{"curve", "[", 
             RowBox[{"[", 
              RowBox[{"All", ",", "2"}], "]"}], "]"}], "]"}]}], "}"}]}], "&"}],
-       " ", "/@", " ", "curve"}]}], ";"}], "\[IndentingNewLine]", "\n", 
+       " ", "/@", " ", "curve"}]}], ";"}], "\n", "\[IndentingNewLine]", 
    RowBox[{"(*", " ", 
     RowBox[{
     "Format", " ", "shape", " ", "as", " ", "OpenSCAD", " ", "polygon"}], " ",
@@ -817,6 +830,7 @@ Cell[BoxData["\<\"[[14.2678,4.64142], [14.7112,5.24278], [14.9572,5.94834], \
    3.742449102190722*^9, 3.742449136923522*^9}, 
    3.743217886745*^9},ExpressionUUID->"bdf238a3-855a-4548-8336-1c932bd4322c"]
 }, Open  ]]
+}, Closed]]
 }, Open  ]]
 },
 WindowSize->{766, 811},
@@ -836,28 +850,34 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 164, 3, 70, "Section", "ExpressionUUID" -> \
+Cell[580, 22, 157, 2, 101, "Title", "ExpressionUUID" -> \
+"e9dac599-7f1c-4e6a-b84a-796622a8b2b2"],
+Cell[740, 26, 269, 5, 49, "Text", "ExpressionUUID" -> \
+"2219ed39-ca31-4deb-a244-0be5ba6bd9ed"],
+Cell[CellGroupData[{
+Cell[1034, 35, 164, 3, 70, "Section", "ExpressionUUID" -> \
 "d1b9788a-617e-48b7-b0e7-c82ef14d33e2"],
 Cell[CellGroupData[{
-Cell[769, 29, 11568, 309, 1076, "Input", "ExpressionUUID" -> \
+Cell[1223, 42, 11568, 309, 1076, "Input", "ExpressionUUID" -> \
 "603c5c6f-8af3-4590-a24d-7fe04d19479f"],
-Cell[12340, 340, 3014, 65, 366, "Print", "ExpressionUUID" -> \
+Cell[12794, 353, 3014, 65, 366, "Print", "ExpressionUUID" -> \
 "66fd3654-3f2b-4d71-855c-9c96ec259160"],
-Cell[15357, 407, 784, 10, 145, "Output", "ExpressionUUID" -> \
+Cell[15811, 420, 784, 10, 145, "Output", "ExpressionUUID" -> \
 "736ffbd5-c549-40fc-88e3-2a66b604fb9f"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[16190, 423, 156, 3, 56, "Section", "ExpressionUUID" -> \
+Cell[16644, 436, 212, 3, 56, "Section", "ExpressionUUID" -> \
 "5460c3cb-13a5-427a-b6a0-ca1fda6a568e"],
 Cell[CellGroupData[{
-Cell[16371, 430, 11562, 308, 1076, "Input", "ExpressionUUID" -> \
+Cell[16881, 443, 11562, 308, 1076, "Input", "ExpressionUUID" -> \
 "e3b900ba-1429-45f9-8e88-24708d59a387"],
-Cell[27936, 740, 3014, 65, 366, "Print", "ExpressionUUID" -> \
+Cell[28446, 753, 3014, 65, 366, "Print", "ExpressionUUID" -> \
 "a29d2623-8d1b-4870-9a3f-54212eb1dcb2"],
-Cell[30953, 807, 784, 10, 145, "Output", "ExpressionUUID" -> \
+Cell[31463, 820, 784, 10, 145, "Output", "ExpressionUUID" -> \
 "bdf238a3-855a-4548-8336-1c932bd4322c"]
 }, Open  ]]
+}, Closed]]
 }, Open  ]]
 }
 ]
